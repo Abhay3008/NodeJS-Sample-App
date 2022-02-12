@@ -2,7 +2,7 @@
   "name": "docker_web_app",
   "version": "1.0.0",
   "description": "Example of Node.js on Docker and demonstrating how to dockerize a node application",
-  "author": "Devopsguy9 <devopsguy9@gmail.com>",
+  "author": "abhay3008",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
