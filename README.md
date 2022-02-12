@@ -1,22 +1,25 @@
-Employee Database
-=====================
+## Building own Node.js image
 
-**A sample Employee Database CRUD application with Node.js, Express and MongoDB.**
+Goal: The purpose of this image is to test Node js
 
-## Requirements
+### Steps to building your own image
 
-* Node
-* Express
-* MongoDB
+Be in the directory Node-Js-Sample-App
+- `cd Node-Js-Sample-App`
+- `docker build -t devopsguy9/node-app .`
+- `docker run -p 8080:8080 -d devopsguy9/node-app`
 
-## Implementation Instructions
+### Saving the image to docker hub
+- `Register for account`
+- `In server machine`
+- `# docker login`
+- `# docker images`    
+- `# docker tag e63ada01cfdf(image-id) docker-user_id/image-name`
+- `# docker images`    
+- `# docker push docker-user_id/image-name`
 
-* [A Sample App with Node.js, Express and MongoDB – Part 1](http://blog.ijasoneverett.com/2013/03/a-sample-app-with-node-js-express-and-mongodb-part-1/)
-* [A Sample App with Node.js, Express and MongoDB – Part 2](http://blog.ijasoneverett.com/2013/04/a-sample-app-with-node-js-express-and-mongodb-part-2/)
+        
+        
+        
 
-## Contact
-
-Jason Everett
-
-- https://github.com/ijason
-- http://twitter.com/ijayson66
+        

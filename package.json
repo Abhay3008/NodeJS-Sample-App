@@ -1,14 +1,13 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
-  "private": true,
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "description": "Example of Node.js on Docker and demonstrating how to dockerize a node application",
+  "author": "Devopsguy9 <devopsguy9@gmail.com>",
+  "main": "server.js",
   "scripts": {
-    "start": "node app"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "4.17.1",
-    "jade": "*",
-    "stylus": "*",
-    "mongodb": ">= 0.9.6-7"
+    "express": "^4.13.3"
   }
 }
